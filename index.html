@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Grocery List</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .wrapper-container{
+            display: flex;
+            justify-content: center;
+            gap:40px;
+        }
+        .child-container-pantry{
+            background-color: rgb(236, 171, 85);
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 250px;
+            max-height: 195px;
+            border: solid 3px black;
+            border-radius: 10px;
+        }
+        #title-pantry-items{
+            color:rgb(200, 90, 11);
+            }
+    </style>
+</head>
+<header>
+    <h1 style="font-size: 36px; display: flex; justify-content: center; color:blueviolet ">My Very Organized Grocery List</h1>
+</header>
+<body>
+    <main>
+   <section>
+    <h2 style="font-size: 28px; display: flex; justify-content: center; color:green">PANTRY ITEMS</h2>
+    <div class="wrapper-container">
+        <div class="child-container-pantry">
+            <h3>CANNED</h3>
+            <ul>
+                <li>Corns</li>
+                <li>Tuna</li>
+                <li>Green Beans</li>
+                <li>Beans</li>
+            </ul>
+        </div>
+        <div class="child-container-pantry">
+            <h3 id="title-pantry-items">DRY GOODS</h3>
+            <ul>
+            <li>Rice</li>
+            <li>Lentis</li>
+            <li>Oats</li>
+            <li>Pancake Mix</li>
+        </ul>
+        </div>
+        <div>
+            <img src="images/Preppers-will-stocking-a-pantry.jpeg" atl=" Pantry  items" width="250" height="195"/>
+        </div>
+    </div>
+   </section>
+   <section>
+    <h2 style="font-size: 28px; display: flex; justify-content: center; color:rgb(114, 163, 220)">FREEZER ITEMS</h2>
+    <div class="wrapper-container">
+        <div class="child-container-freezer">
+            <h3 id="title-freezer-items">VEGGIES</h3>
+            <ol>
+                <li>Brocolli</li>
+                <li>Carrots</li>
+                <li>Cauliflowers</li>
+                <li>Bell Peppers</li>
+            </ol>
+        </div>
+        <div class="child-container-freezer">
+            <h3>SNACKS</h3>
+            <ol>
+            <li>Chicken Nuggets</li>
+            <li>Hot Pockets</li>
+            <li>Fries</li>
+            <li>Tator Tots</li>
+        </ol>
+        </div>
+        <div>
+            <img src="images/freezer2.jpeg" atl="freezer items" width="250" height="195" atl=""/>
+        </div>
+    </div>
+   </section>
+    
+    
+    
+    
+    </main>
+    
+</body>
+</html>
